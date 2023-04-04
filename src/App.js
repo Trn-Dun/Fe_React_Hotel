@@ -1,3 +1,4 @@
+// import routeControl from "./route/routeControl";
 import { Routes, Route } from "react-router-dom";
 import routeConstant from "./route/routeConstants";
 import Home from "./views/Home/Home";
@@ -7,6 +8,7 @@ import RestoandBar from "./views/RestoandBar/RestoandBar";
 import Blog from "./views/Blog/Blog";
 import Contact from "./views/Contact/Contact";
 import Navigation from "./Component/navigation";
+import Footer from "./Component/footer";
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,7 @@ function App() {
         <Route path={routeConstant.BLOGS} element={<Blog />} />
         <Route path={routeConstant.CONTACT} element={<Contact />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

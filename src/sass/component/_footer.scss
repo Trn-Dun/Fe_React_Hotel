@@ -1,0 +1,103 @@
+.container-footer {
+  background-color: $brcolor-black;
+  padding: 112px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-summary {
+    flex-basis: 25%;
+    padding: 0 12px;
+    .navigation-container-logo {
+      margin-bottom: 40px;
+    }
+    &-text {
+      @include font-16;
+      font-family: $font-nunito;
+      color: $color--text_white;
+    }
+  }
+  .footer-services {
+    flex-basis: 25%;
+    padding: 0 12px;
+    &-title {
+      font-family: $font-nunito;
+      color: $color--text_white;
+      margin-bottom: 40px;
+    }
+    &-list {
+      color: $color--text_white;
+      display: flex;
+      justify-content: space-between;
+      &-one {
+        list-style-type: none;
+        li {
+          @include font-16;
+          font-family: $font-nunito;
+          margin-bottom: 10px;
+        }
+      }
+      &-two {
+        list-style-type: none;
+        li {
+          @include font-16;
+          font-family: $font-nunito;
+
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .footer-quick_link {
+    flex-basis: 25%;
+    padding: 0 12px;
+    &-title {
+      font-family: $font-nunito;
+
+      color: $color--text_white;
+      margin-bottom: 40px;
+    }
+    &-list {
+      li {
+        list-style-type: none;
+        margin-bottom: 10px;
+        a {
+          @include font-16;
+          font-family: $font-nunito;
+
+          color: $color--text_white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .footer-question {
+    flex-basis: 25%;
+    padding: 0 12px;
+    &-title {
+      font-family: $font-nunito;
+
+      color: $color--text_white;
+      margin-bottom: 40px;
+    }
+    &-contact {
+      list-style-type: none;
+      ul {
+        list-style-type: none;
+        li {
+          color: $color--text_white;
+          margin-bottom: 10px;
+          a {
+            @include font-16;
+            font-family: $font-nunito;
+
+            color: $color--text_white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

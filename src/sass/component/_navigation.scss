@@ -1,0 +1,36 @@
+.navigation-container {
+    // height: 60px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    &-logo {
+        h1 {
+            @include font-30;
+            color: $color--text_white;
+            font-family: $font-nunito
+        }
+        p {
+            @include font-20;
+            color: $color--text_white;
+            font-family: $font-nunito;
+        }
+    }
+    &-item {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            line-height: 52.8px;
+            li {
+                @include font-20;
+                list-style-type: none;
+                padding: 0 25px;
+                a {
+                    color: $color--text_white;
+                    text-decoration: none;
+                    font-family: $font-nunito;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+@mixin font-30 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+@mixin font-20 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@mixin font-16 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
