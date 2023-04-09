@@ -1,7 +1,6 @@
 const Navigation = () => {
   return (
-    <div className="container">
-      <div className="navigation-container">
+    <div className="navigation-container">
         <div className="navigation-container-logo">
           <h1>Unwind</h1>
           <p>Hotel Booking</p>
@@ -29,7 +28,6 @@ const Navigation = () => {
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 

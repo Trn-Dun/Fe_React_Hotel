@@ -1,18 +1,19 @@
 .navigation-container {
-    // height: 60px;
-    padding: 20px 0;
+    background-color: $color--text_white;
+    padding: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     &-logo {
         h1 {
             @include font-30;
-            color: $color--text_white;
+            color: $brcolor-black;
             font-family: $font-nunito
         }
         p {
-            @include font-20;
-            color: $color--text_white;
+            @include font-12;
+            color: $brcolor-black;
             font-family: $font-nunito;
+            text-transform: uppercase;
         }
     }
     &-item {
@@ -21,13 +22,14 @@
             justify-content: space-between;
             line-height: 52.8px;
             li {
-                @include font-20;
+                @include font-13;
                 list-style-type: none;
                 padding: 0 25px;
                 a {
-                    color: $color--text_white;
+                    color: $brcolor-black;
                     text-decoration: none;
                     font-family: $font-nunito;
+                    text-transform: uppercase;
 
                 }
             }
