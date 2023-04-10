@@ -5,3 +5,11 @@
     url(../assets/fonts/Nunito/NunitoSans-Black.ttf) format("truetype");
   font-display: swap;
 }
+
+@font-face {
+  font-family:  "Old-Standard";
+  font-style: normal;
+  src : local("Old Standard"), local("Old-Standard"),
+    url(../assets/fonts/Old_Standard/OldStandardTT-Bold.ttf) format("truetype");
+  font-display: swap;
+}

@@ -1,0 +1,53 @@
+.container-home {
+    &-carousel {
+        &-img_1 {
+            position: relative;
+            &-overlay {
+                z-index: 1;
+                background-color: #2222;
+
+            }
+            img {
+                z-index: 0;
+                width: 100%;
+                height: calc(100vh - 76.8px);
+                opacity: 0.9;
+            }
+        }
+        &-img_2 {
+            position: relative;
+            img {
+                width: 100%;
+                height: calc(100vh - 76.8px);
+            }
+        }
+        &-img_3 {
+            position: relative;
+            img {
+                width: 100%;
+                height: calc(100vh - 76.8px);
+            }
+        }
+        &-intro {
+            text-align: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            padding-top: 250px;
+            h1 {
+                @include font-80;
+                color: $color--text_white;
+                font-family: $font-old_standard;
+            }
+            p {
+                @include font-13;
+                color: $color--text_white;
+                font-family: $font-nunito;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
