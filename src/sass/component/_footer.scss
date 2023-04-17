@@ -32,6 +32,9 @@
       font-family: $font-nunito;
       color: $color--text_white;
       margin-bottom: 40px;
+      h1 {
+        @include font-20;
+      }
     }
     &-list {
       color: $color--text_white;
@@ -62,9 +65,11 @@
     padding: 0 12px;
     &-title {
       font-family: $font-nunito;
-
       color: $color--text_white;
       margin-bottom: 40px;
+      h1 {
+        @include font-20;
+      }
     }
     &-list {
       li {
@@ -86,9 +91,11 @@
     padding: 0 12px;
     &-title {
       font-family: $font-nunito;
-
       color: $color--text_white;
       margin-bottom: 40px;
+      h1 {
+        @include font-20;
+      }
     }
     &-contact {
       list-style-type: none;
