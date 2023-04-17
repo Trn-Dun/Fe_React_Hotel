@@ -49,6 +49,51 @@
             }
         }
     }
+    &-booking {
+        padding: 0 200px;
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            background-color: $brcolor-black_2;
+            display: flex;
+            flex-basis: 90%;
+            justify-content: space-between;
+            padding: 48px 0;
+            p {
+                @include font-12;
+                color: $color--text_white;
+                text-transform: uppercase;
+                font-family: $font-nunito;
+                margin-bottom: 10px;
+            }
+            &-one {
+                padding: 0 24px;
+            }
+            &-two {
+                padding: 0 24px;
+            }
+            &-tree {
+                padding: 0 24px;
+            }
+            &-four {
+                padding: 0 24px;
+            }
+        }
+        &-submit {
+            flex-basis: 10%;
+            button {
+                padding: 49px 30px;
+                @include font-16;
+                text-transform: uppercase;
+                font-family: $font-nunito;
+                border: none;
+                background-color: $brcolor-cream;
+                color: $color--text_white;
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 
