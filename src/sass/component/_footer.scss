@@ -1,15 +1,23 @@
 .container-footer {
   background-color: $brcolor-black;
   padding: 112px 0;
-  .container {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-around;
   .footer-summary {
-    flex-basis: 25%;
+    flex-basis: 20%;
     padding: 0 12px;
-    .navigation-container-logo {
+    &-logo {
       margin-bottom: 40px;
+      color: $color--text_white;
+      h1 {
+        @include font-30;
+        font-family: $font-nunito;
+      }
+      p {
+        @include font-12;
+            font-family: $font-nunito;
+            text-transform: uppercase;
+      }
     }
     &-text {
       @include font-16;
@@ -18,7 +26,7 @@
     }
   }
   .footer-services {
-    flex-basis: 25%;
+    flex-basis: 20%;
     padding: 0 12px;
     &-title {
       font-family: $font-nunito;
@@ -50,7 +58,7 @@
   }
 
   .footer-quick_link {
-    flex-basis: 25%;
+    flex-basis: 20%;
     padding: 0 12px;
     &-title {
       font-family: $font-nunito;
@@ -74,7 +82,7 @@
   }
 
   .footer-question {
-    flex-basis: 25%;
+    flex-basis: 20%;
     padding: 0 12px;
     &-title {
       font-family: $font-nunito;
